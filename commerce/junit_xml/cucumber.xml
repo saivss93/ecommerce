@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="53.768">
+    <testcase classname="Promotions" name="Add new discount" time="53.563">
+        <system-out><![CDATA[Given User Launch Chrome browser............................................passed
+When User opens URL "http://admin-demo.nopcommerce.com/login"...............passed
+And User enters Email as "admin@yourstore.com" and Password as "admin"......passed
+And Click on Login..........................................................passed
+Then User can view Dashboad.................................................passed
+When User clicks on promotions menu.........................................passed
+And clicks on discounts.....................................................passed
+And click on Add new button.................................................passed
+Then User can view add new discount page....................................passed
+When User enters discount info..............................................passed
+And click on Save button....................................................passed
+Then User can view confirmation message "The new discount has been added successfully".passed
+And close browser...........................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
